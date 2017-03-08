@@ -1,5 +1,5 @@
-let React = require('react-native')
-let {
+import React from 'react'
+import {
   StyleSheet,
   View,
   Text,
@@ -8,7 +8,7 @@ let {
   ListView,
   TouchableOpacity,
   Component
-} = React
+} from 'react-native'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 //import shallowEqual from 'react-pure-render/shallowEqual'
 import shallowCompare from 'react-addons-shallow-compare' // ES6

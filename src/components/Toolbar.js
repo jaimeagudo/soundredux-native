@@ -1,12 +1,12 @@
-let React = require('react-native')
-let {
+import React from 'react'
+import {
   StyleSheet,
   View,
   Text,
   Dimensions,
   ScrollView,
   TouchableOpacity
-} = React
+} from 'react-native'
 
 import {changePlaylist} from '../actions/playlists'
 import {GENRES, GENRES_MAP} from '../constants/SongConstants'

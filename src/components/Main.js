@@ -1,11 +1,12 @@
-let React = require('react-native')
-let {
+import React from 'react'
+import {
   StyleSheet,
   View,
   Dimensions,
   PropTypes,
   ToolbarAndroid
-} = React
+} from 'react-native'
+
 import {connect} from 'react-redux'
 
 let deviceWidth = Dimensions.get('window').width

@@ -1,9 +1,9 @@
-import React from 'react-native'
+import React from 'react'
 
-let {
+import {
   View,
   Component
-} = React
+} from 'react-native'
 import {connect} from 'react-redux'
 
 import Player from '../components/Player'

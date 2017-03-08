@@ -1,12 +1,12 @@
-let React = require('react-native')
-let {
+import React from 'react'
+import {
   StyleSheet,
   View,
   Text,
   Dimensions,
   TouchableOpacity,
   TextInput
-} = React
+} from 'react-native'
 
 import InteractionManager from 'InteractionManager'
 import PlayerContainer from '../containers/PlayerContainer'
@@ -29,7 +29,7 @@ class Search extends React.Component {
   }
 
   renderContent () {
-    let { playlist } = this.props
+    const { playlist } = this.props
     return (
       <Songs
         {...this.props}

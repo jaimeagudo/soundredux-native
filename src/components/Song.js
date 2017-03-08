@@ -1,5 +1,5 @@
-import React from 'react-native'
-let {
+import React from 'react'
+import {
   StyleSheet,
   PropTypes,
   View,
@@ -8,7 +8,7 @@ let {
   Image,
   ListView,
   TouchableOpacity
-} = React
+} from 'react-native'
 import RCTPlayer from 'react-native-player'
 
 import Icon from 'react-native-vector-icons/MaterialIcons'

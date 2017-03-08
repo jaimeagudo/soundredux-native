@@ -1,5 +1,5 @@
-import React from 'react-native'
-let {
+import React from 'react'
+import {
   StyleSheet,
   View,
   Text,
@@ -8,7 +8,7 @@ let {
   TouchableOpacity,
   DeviceEventEmitter,
   Component
-} = React
+} from 'react-native'
 import RCTPlayer from 'react-native-player'
 
 //TODO use . Use React.PureComponent instead as per https://facebook.github.io/react/docs/shallow-compare.html

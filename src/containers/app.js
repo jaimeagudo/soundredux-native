@@ -1,10 +1,10 @@
-import React from 'react-native'
+import React from 'react'
 
-let {
+import {
   StyleSheet,
   Navigator,
   PropTypes
-} = React
+} from 'react-native'
 
 import MainContainer from './MainContainer'
 
