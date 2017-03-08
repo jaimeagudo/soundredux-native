@@ -1,10 +1,7 @@
 import React from 'react'
 
-import {
-  StyleSheet,
-  Navigator,
-  PropTypes
-} from 'react-native'
+import { PropTypes } from 'react';
+import { StyleSheet, Navigator } from 'react-native';
 
 import MainContainer from './MainContainer'
 

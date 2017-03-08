@@ -1,11 +1,6 @@
 import React from 'react'
-import {
-  StyleSheet,
-  View,
-  Dimensions,
-  PropTypes,
-  ToolbarAndroid
-} from 'react-native'
+import { PropTypes } from 'react';
+import { StyleSheet, View, Dimensions, ToolbarAndroid } from 'react-native';
 
 import {connect} from 'react-redux'
 

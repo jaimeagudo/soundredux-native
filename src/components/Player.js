@@ -1,14 +1,6 @@
 import React from 'react'
-import {
-  StyleSheet,
-  View,
-  Text,
-  Dimensions,
-  Image,
-  TouchableOpacity,
-  DeviceEventEmitter,
-  Component
-} from 'react-native'
+import { Component } from 'react';
+import { StyleSheet, View, Text, Dimensions, Image, TouchableOpacity, DeviceEventEmitter } from 'react-native';
 import RCTPlayer from 'react-native-player'
 
 //TODO use . Use React.PureComponent instead as per https://facebook.github.io/react/docs/shallow-compare.html

@@ -1,14 +1,6 @@
 import React, { Component } from 'react'
-import {
-  StyleSheet,
-  PropTypes,
-  View,
-  Text,
-  Dimensions,
-  Image,
-  ListView,
-  TouchableOpacity
-} from 'react-native'
+import { PropTypes } from 'react';
+import { StyleSheet, View, Text, Dimensions, Image, ListView, TouchableOpacity } from 'react-native';
 import RCTPlayer from 'react-native-player'
 
 import Icon from 'react-native-vector-icons/MaterialIcons'
