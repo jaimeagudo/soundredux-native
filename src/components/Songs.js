@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import {
   StyleSheet,
   View,
@@ -6,8 +6,7 @@ import {
   Dimensions,
   Image,
   ListView,
-  TouchableOpacity,
-  Component
+  TouchableOpacity
 } from 'react-native'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 //import shallowEqual from 'react-pure-render/shallowEqual'
