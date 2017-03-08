@@ -10,7 +10,10 @@ let {
   Component
 } = React
 import RCTPlayer from 'react-native-player'
-import shallowEqual from 'react-pure-render/shallowEqual'
+
+//TODO use . Use React.PureComponent instead as per https://facebook.github.io/react/docs/shallow-compare.html
+import shallowCompare from 'react-addons-shallow-compare' // ES6
+//import shallowEqual from 'react-pure-render/shallowEqual'
 
 
 import InteractionManager from 'InteractionManager'
@@ -36,8 +39,8 @@ class Player extends Component {
 
   shouldComponentUpdate(nextProps, nextState) {
     const shouldUpdate =
-      !shallowEqual(this.props, nextProps) ||
-      !shallowEqual(this.state, nextState)
+      !shallowCompare(this, this.props, nextProps) ||
+      !shallowCompare(this, this.state, nextState)
     return shouldUpdate
   }
 

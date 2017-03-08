@@ -4,7 +4,7 @@ let {
   View,
   Component
 } = React
-import {connect} from 'react-redux/native'
+import {connect} from 'react-redux'
 
 import Song from '../components/Song'
 

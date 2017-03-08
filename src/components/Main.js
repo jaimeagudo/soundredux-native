@@ -6,7 +6,7 @@ let {
   PropTypes,
   ToolbarAndroid
 } = React
-import {connect} from 'react-redux/native'
+import {connect} from 'react-redux'
 
 let deviceWidth = Dimensions.get('window').width
 
