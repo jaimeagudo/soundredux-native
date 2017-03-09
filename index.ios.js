@@ -1,8 +1,6 @@
-import React from 'react'
+import React, { Component } from 'react';
+import { AppRegistry } from 'react-native';
 import Root from './src/root'
 
-const {
-  AppRegistry
-} = React
 
 AppRegistry.registerComponent('soundreduxNative', () => Root)
