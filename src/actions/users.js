@@ -1,5 +1,5 @@
 import {arrayOf, normalize} from 'normalizr';
-import merge from 'lodash/object/merge';
+import _ from 'lodash/object';
 import * as types from '../constants/ActionTypes';
 import {songSchema, userSchema} from '../constants/Schemas';
 
@@ -50,7 +50,7 @@ function fetchUserFollowings(userId) {
             .then(json => {
                 const users = json.sort((a, b) => b.followers_count - a.followers_count);
                 const normalized = normalize(users, arrayOf(userSchema));
-                const entities = merge({}, normalized.entities, {
+                const entities = _.merge({}, normalized.entities, {
                     users: {
                         [userId]: {
                             followings: normalized.result

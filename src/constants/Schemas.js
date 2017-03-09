@@ -1,7 +1,7 @@
-import { normalize, Schema, arrayOf } from 'normalizr';
+import { normalize, schema, arrayOf } from 'normalizr';
 
-let song = new Schema('songs');
-let user = new Schema('users');
+let song = new schema.Entity('songs');
+let user = new schema.Entity('users');
 
 song.define({
     user: user

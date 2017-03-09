@@ -1,4 +1,4 @@
-import merge from 'lodash/object/merge';
+import _ from 'lodash/object';
 
 const initialState = {
     songs: {},
@@ -7,7 +7,7 @@ const initialState = {
 
 export default function entities(state = initialState, action) {
     if (action.entities) {
-        return merge({}, state, action.entities);
+        return _.merge({}, state, action.entities);
     }
 
     return state;
